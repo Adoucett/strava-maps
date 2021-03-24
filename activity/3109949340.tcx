@@ -1,0 +1,53 @@
+          <?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase
+  xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd"
+  xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1"
+  xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+  xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2"
+  xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Activities>
+              <Activity Sport="Biking">
+      <Id>2019-12-09T22:39:06.000Z</Id>
+      <Lap StartTime="2019-12-09T22:39:06.000Z">
+        <TotalTimeSeconds>160</TotalTimeSeconds>
+        <DistanceMeters>1609.3400</DistanceMeters>
+        <MaximumSpeed>13.2637</MaximumSpeed>
+        <Calories>54</Calories>
+        <AverageHeartRateBpm>157</AverageHeartRateBpm>
+        <MaximumHeartRateBpm>158</MaximumHeartRateBpm>
+        <Cadence>84</Cadence>
+        <Watts>309</Watts>
+        <MaximumWatts>600</MaximumWatts>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+          <Trackpoint>
+            <Time>2019-12-09T22:39:06.000Z</Time>
+            <DistanceMeters>0</DistanceMeters>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-12-09T22:41:46.000Z</Time>
+            <DistanceMeters>1609.3400</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+                <Speed>13.2637</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+        </Track>
+      </Lap>
+      <Creator xsi:type="Device_t">
+        <Name>Expresso</Name>
+        <UnitId>398692</UnitId>
+        <ProductId>42</ProductId>
+        <Version>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>1</VersionMinor>
+          <BuildMajor>0</BuildMajor>
+          <BuildMinor>0</BuildMinor>
+        </Version>
+      </Creator>
+    </Activity>
+            </Activities>
+            
+          </TrainingCenterDatabase>

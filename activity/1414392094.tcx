@@ -1,0 +1,47 @@
+          <?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd" xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1" xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2" xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2" xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Activities>
+              <Activity Sport="Biking">
+   <Id>2017-12-08T23:05:45.0000000</Id>
+   <Lap StartTime="2017-12-08T23:05:45.0000000">
+    <TotalTimeSeconds>1579</TotalTimeSeconds>
+    <DistanceMeters>13486.2693841743</DistanceMeters>
+    <MaximumSpeed>12.7451105023193</MaximumSpeed>
+    <Calories>384.64</Calories>
+    <AverageHeartRateBpm>135.43</AverageHeartRateBpm>
+    <MaximumHeartRateBpm>158</MaximumHeartRateBpm>
+    <Cadence>76.89</Cadence>
+    <Watts>219.02</Watts>
+    <MaximumWatts>517.63</MaximumWatts>
+    <TriggerMethod>Manual</TriggerMethod>
+    <Track>
+     <Trackpoint>
+      <Time>2017-12-08T23:05:45.0000000</Time>
+      <DistanceMeters>0</DistanceMeters>
+     </Trackpoint>
+     <Trackpoint>
+      <Time>2017-12-08T23:32:04.0000000</Time>
+      <DistanceMeters>13486.2693841743</DistanceMeters>
+      <Extensions>
+       <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+        <Speed>12.7451105023193</Speed>
+       </TPX>
+      </Extensions>
+     </Trackpoint>
+    </Track>
+   </Lap>
+   <Creator xsi:type="Device_t">
+    <Name>Expresso</Name>
+    <UnitId>344511</UnitId>
+    <ProductId>12</ProductId>
+    <Version>
+     <VersionMajor>1</VersionMajor>
+     <VersionMinor>0</VersionMinor>
+     <BuildMajor>0</BuildMajor>
+     <BuildMinor>0</BuildMinor>
+    </Version>
+   </Creator>
+  </Activity>
+            </Activities>
+            
+          </TrainingCenterDatabase>
